@@ -1,0 +1,43 @@
+[
+  {
+    "subject": "Programming Languages",
+    "json": [
+      "Python",
+      "Rust",
+      "C++",
+      "Java",
+      "JavaScript",
+      "TypeScript",
+      "C#",
+      "Go",
+      "Ruby"
+    ]
+  },
+  {
+    "subject": "Frontend Web Development with JavaScript",
+    "json": [
+      "JavaScript Essentials: Building the Foundation for Frontend Development",
+      "React: Building Modern Web Applications",
+      "Mastering Next.js 14 and React 18",
+      "Advanced Vue.js: Building Enterprise-Grade Web Applications",
+      "Design to Code: Translating Visuals into Frontend Reality with JavaScript and CSS",
+      "Modern JavaScript for the Seasoned Developer: Advanced Patterns and Techniques",
+      "Understanding Web Performance: A Deep Dive into JavaScript, CSS, and Browser Performance",
+      "Building Type-Safe Web Applications with TypeScript",
+      "TRPC: Building Type-Safe APIs with TypeScript and React",
+      "An introduction to SvelteKit",
+      "Serverless Functions with Vercel: Building Scalable APIs with Next.js and TypeScript",
+      "Bundlers and Build Tools: Webpack, Rollup, and Vite"
+    ]
+  },
+  {
+    "subject": "Developing Web Services with Rust",
+    "json": [
+      "Building serverless APIs with Rust and AWS Lambda",
+      "Message queues with Rust and RabbitMQ",
+      "Building a RESTful API with Actix Web",
+      "Advanced Rust Patterns and Techniques",
+      "Tokio and async programming in Rust"
+    ]
+  }
+]

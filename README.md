@@ -32,4 +32,4 @@ For example, to generate 10 titles on the topic of "mathematics" and save them t
 poetry run python generate_titles.py mathematics --number 10 --output titles.txt
 ```
 
-By default, the script generates 10 titles on the given topic and saves them to "output/titles.json".
+By default, the script generates 10 titles on the given topic and saves them to "synthetic_data/output/titles.json".
