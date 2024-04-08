@@ -1,6 +1,8 @@
 # Synthetic Data Generation
 
-This repo contains the code for implementing synthetic textbook generation based on the paper [Textbooks Are All You Need](https://arxiv.org/pdf/2306.11644.pdf).
+This repo contains the code for implementing synthetic textbook generation based on the paper:
+
+[Textbooks Are All You Need](https://arxiv.org/pdf/2306.11644.pdf).
 
 ![Synthetic Data Generation](https://github.com/PeytonCleveland/Synthetic-Data/blob/main/assets/wizard.jpg?raw=true)
 
@@ -30,4 +32,4 @@ For example, to generate 10 titles on the topic of "mathematics" and save them t
 poetry run python generate_titles.py mathematics --number 10 --output titles.txt
 ```
 
-By default, the script generated 10 titles on the given topic and saves them to "output/titles.json".
+By default, the script generates 10 titles on the given topic and saves them to "output/titles.json".
