@@ -41,20 +41,3 @@ if __name__ == "__main__":
 
     # Generate outlines
     outlines = []
-    for title in tqdm(titles):
-        try:
-            outline = generate_outline(title, args.max)
-            outlines.append(outline)
-        except Exception as error:
-            print(f"Error generating outline for {title}: {error}")
-
-    # Make output directory
-    output_path = os.path.join(settings.OUTPUT_DIR, args.out)
-    if not os.path.exists(settings.OUTPUT_DIR):
-        os.makedirs(settings.OUTPUT_DIR)
-
-    # Save to file
-    with open(output_path, "w") as f:
-        json.dump(outlines, f, indent=2)
-
-    print(f"Saving outlines to {args.out}")
