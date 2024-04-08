@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "synthetic-data"
+version = "0.1.0"
+description = "Implementation of 'Textbooks Are All You Need' whitepaper"
+license = "MIT"
+authors = ["Peyton Cleveland <peyton.cleveland@omnifederal.com>"]
+readme = "README.md"
+keywords = ["synthetic data", "textbooks", "transformers", "nlp"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+tqdm = "^4.66.2"
+asyncio = "^3.4.3"
+pydantic = "^2.6.4"
+python-dotenv = "^1.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
